@@ -1,0 +1,26 @@
+@import "mocha.css";
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FiraCode Nerd Font Propo, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border-radius: 0;
+}
+
+window#waybar {
+    background-color: shade(@base, 0.9);
+    color: @text;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#workspaces button {
+    color: @text;
+    padding: 0;
+    border: 2px solid @base
+}
+
+#workspaces button.active {
+    border: 2px solid @lavender;
+    border-radius: 0;
+}
