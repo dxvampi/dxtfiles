@@ -22,7 +22,9 @@ grim
 grub
 gst-plugin-pipewire
 hyprland
+hyprlock
 hyprpolkitagent
+hyprshutdown
 imagemagick
 intel-ucode
 ipset

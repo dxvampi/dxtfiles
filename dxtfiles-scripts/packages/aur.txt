@@ -17,6 +17,7 @@ papirus-folders-catppuccin-git
 pear-desktop-bin
 protonup-qt-bin
 spoofdpi-bin
+syspower
 vesktop-bin
 vscodium-bin
 walker
