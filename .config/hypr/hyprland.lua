@@ -293,6 +293,7 @@ hl.bind(mainMod .. " + T", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("walker"))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
