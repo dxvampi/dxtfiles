@@ -115,5 +115,12 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza -lh"
 alias ff="fastfetch"
 
+pkgsave() {
+    local dir=~/dxtfiles/dxtfiles-scripts/packages
+    pacman -Qqen > "$dir/pkglist.txt"
+    pacman -Qqem > "$dir/aur.txt"
+    git -C ~/dxtfiles diff --stat -- dxtfiles-scripts/packages
+}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
