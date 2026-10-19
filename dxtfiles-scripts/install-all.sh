@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DIR="~/dxtfiles"
+DIR="$HOME/dxtfiles"
 PKGS="$DIR/dxtfiles-scripts/packages"
 
 clean() { grep -vE '^\s*(#|$)' "$1"; }
@@ -49,5 +49,8 @@ clone_plugin https://github.com/zsh-users/zsh-syntax-highlighting zsh-syntax-hig
 # --- Shell n services ---
 [ "$SHELL" != "$(command -v zsh)" ] && chsh -s "$(command -v zsh)"
 sudo systemctl enable sddm NetworkManager bluetooth
+
+cd $DIR
+stow .
 
 echo "You can now reboot"

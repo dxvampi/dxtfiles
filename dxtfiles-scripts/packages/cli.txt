@@ -6,3 +6,4 @@ neovim
 eza
 btop
 fastfetch
+pciutils
