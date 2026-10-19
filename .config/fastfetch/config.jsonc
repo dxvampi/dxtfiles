@@ -23,11 +23,13 @@
         {
             "type": "cpu",
             "key": "│ ├󰻠 ",
+	    "format": "{name}",
             "keyColor": "green"
         },
         {
             "type": "gpu",
             "key": "│ ├󰍹 ",
+	    "format": "{name}",
             "keyColor": "green"
         },
         {
@@ -52,6 +54,7 @@
         {
             "type": "os",
             "key": "  OS",
+	    "format": "{name} (btw)",
             "keyColor": "yellow"
         },
         {

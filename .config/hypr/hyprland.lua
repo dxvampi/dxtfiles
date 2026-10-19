@@ -144,7 +144,7 @@ hl.config({
             enabled      = true,
             range        = 4,
             render_power = 3,
-            color        = 0xee1a1a1a,
+            color        = "0xee1a1a1a",
         },
 
         blur = {
@@ -311,6 +311,10 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
+
+-- MOVE MONITORS THING
+hl.bind(mainMod .. " + ALT + 1", hl.dsp.workspace.move({ monitor = "DP-1" }))
+hl.bind(mainMod .. " + ALT + 2", hl.dsp.workspace.move({ monitor = "HDMI-A-1" }))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
