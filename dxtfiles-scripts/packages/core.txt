@@ -1,0 +1,20 @@
+# --- Hyprland ---
+hyprland
+hyprlock
+hyprpolkitagent
+hyprshutdown
+xdg-desktop-portal-hyprland
+
+# --- Session & Shell ---
+sddm
+waybar
+kitty
+swaybg
+
+# --- Wayland Utils ---
+wl-clipboard
+grim
+slurp
+
+# --- Other ---
+nautilus

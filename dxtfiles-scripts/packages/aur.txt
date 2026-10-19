@@ -1,26 +1,14 @@
-audio-share-bin
-bibata-cursor-theme-bin
-brave-origin-bin
-catppuccin-gtk-theme-mocha
-cmatrix-git
-constrict
-docker-desktop
+# --- Launcher ---
+walker
 elephant
 elephant-calc
 elephant-desktopapplications
-fetch-git
+
+# --- Theming ---
+bibata-cursor-theme-bin
+catppuccin-gtk-theme-mocha
 kvantum-theme-catppuccin-git
-losslesscut-bin
-obs-cmd-bin
-obs-pipewire-audio-capture-bin
 papirus-folders-catppuccin-git
-pear-desktop-bin
-protonup-qt-bin
-spoofdpi-bin
+
+# --- Power Menu ---
 syspower
-vesktop-bin
-vscodium-bin
-walker
-waydroid-nvidia-bin
-yay
-zapret-git

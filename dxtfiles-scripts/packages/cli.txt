@@ -1,0 +1,8 @@
+base-devel
+git
+zsh
+stow
+neovim
+eza
+btop
+fastfetch

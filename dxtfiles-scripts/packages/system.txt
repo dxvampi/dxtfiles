@@ -1,0 +1,11 @@
+# --- Audio ---
+pipewire
+pipewire-alsa
+pipewire-pulse
+wireplumber
+pavucontrol
+
+# --- Net & bluetooth ---
+networkmanager
+bluez
+bluez-utils

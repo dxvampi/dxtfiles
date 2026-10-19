@@ -1,0 +1,6 @@
+mesa
+vulkan-radeon
+vulkan-intel
+intel-media-driver
+libva-intel-driver
+libva-mesa-driver
