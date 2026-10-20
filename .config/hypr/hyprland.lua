@@ -69,6 +69,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("hyprctl setcursor Bibata-Original-Classic 24")
     hl.exec_cmd("swaybg -i ~/walls/dark-waves.jpg & disown")
     hl.exec_cmd("vesktop --start-minimized")
+    hl.exec_cmd("steam -silent")
 end)
 
 
