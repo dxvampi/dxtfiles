@@ -63,6 +63,7 @@ local menu        = "hyprlauncher"
 
 hl.on("hyprland.start", function ()
     hl.exec_cmd("waybar")
+    hl.exec_cmd("swayosd-server")
     hl.exec_cmd("elephant")
     hl.exec_cmd("walker --gapplication-service")
     hl.exec_cmd("hyprctl setcursor Bibata-Original-Classic 24")
