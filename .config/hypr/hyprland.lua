@@ -67,7 +67,8 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("elephant")
     hl.exec_cmd("walker --gapplication-service")
     hl.exec_cmd("hyprctl setcursor Bibata-Original-Classic 24")
-    hl.exec_cmd("swaybg -i ~/Downloads/hyprland-catppuccin-wallpaper.png")
+    hl.exec_cmd("swaybg -i ~/walls/dark-waves.jpg & disown")
+    hl.exec_cmd("vesktop --start-minimized")
 end)
 
 
