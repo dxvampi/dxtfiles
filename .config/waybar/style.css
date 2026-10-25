@@ -10,8 +10,6 @@
 window#waybar {
     background-color: shade(@base, 0.9);
     color: @text;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 #workspaces button {

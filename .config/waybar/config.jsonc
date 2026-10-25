@@ -9,8 +9,10 @@
     "modules-left": [
         "hyprland/workspaces"
     ],
+    "modules-center": [
+	"clock"
+    ],
     "modules-right": [
-	"clock",
 	"tray"
     ],
     // Modules configuration

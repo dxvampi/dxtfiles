@@ -70,6 +70,8 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("swaybg -i ~/walls/dark-waves.jpg & disown")
     hl.exec_cmd("vesktop --start-minimized")
     hl.exec_cmd("steam -silent")
+    hl.exec_cmd("/usr/lib/hyprpolkitagent/hyprpolkitagent")
+    hl.exec_cmd("/home/dxvampi/bot-rape/venv/bin/python /home/dxvampi/bot-rape/main.py")
 end)
 
 
@@ -296,7 +298,7 @@ hl.bind(mainMod .. " + T", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd("walker"))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd('~/dxtfiles-scripts/take-region-screenshot.sh'))
 hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("librewolf"))
 hl.bind(mainMod .. " + SHIFT + ESCAPE", hl.dsp.exec_cmd("syspower -m 1920x0"))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
